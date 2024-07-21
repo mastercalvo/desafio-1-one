@@ -3,24 +3,21 @@
     padding: 0;
 }
 html {
-   height: 100%;
+   height: 100vw;
 }
 body {
-    background-color: aliceblue;
-    height:100vh;
-    box-sizing: border-box;
+    background: #F3F5FC;
+    justify-items:flex-start;
+
 }
 .contenedor {
-   display: flex;
-   align-items: center;
-   margin: 1%;
-   justify-content: space-between;
+  
 }
 
 header {
-    width: 100%;
+    width: 600px;
     height: 50px;
-   background-color:  blue;
+   background-color:  rgb(0, 255, 149);
 }
 .header__img {
     position: absolute;
@@ -28,14 +25,16 @@ header {
 .header__img > img {
     position: relative;
     left: 84px;
-    top: 40px;
-    width: 31.09px;
+    top: 100px;
+    width: 50px;
     height: 48px;
 }
 
 
 .encriptador_form {
-
+    width: 600px;
+    height: 508px;
+   background-color:  blue
 }
 .textarea__contenedor {
 
@@ -51,6 +50,9 @@ header {
 
 }
 .contenedor__segundario {
+   float: right;
+    height: 508px;
+    top: 15%;
     width: 446px;
     background-color: black;
 }
@@ -64,7 +66,7 @@ header {
     
 }
 footer {
-    width: 100%;
-    height: 50px;
+    width: 0;
+    height: 0;
    background-color:  rgb(255, 0, 0);
 }
